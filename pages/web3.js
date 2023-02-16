@@ -13,7 +13,7 @@ function Web3Test(props) {
     }
 
     const onLogin = async () => {
-       try {
+       try { 
         setLoading(true)
         let web3auth = new Web3AuthCore({
             clientId: 'BAyJUMy_TUz9qVdu5lkvzMrI6nB3miI7oH6VN6H9pUhDitwlyhtPdUVN-mXqI5G5LiwzWlYpW3C0aBWCgwTR0So',
